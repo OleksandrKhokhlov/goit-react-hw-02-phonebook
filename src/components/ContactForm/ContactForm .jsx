@@ -5,8 +5,8 @@ import { EntryField } from './ContactForm.styled ';
 
 const nameRegExp =
   /^[a-zA-Zа-яА-Я]+(([' \\-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$/;
-const phoneRegExp =
-  /\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/;
+// const phoneRegExp =
+//   /\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}/;
 const schema = Yup.object().shape({
   name: Yup.string()
     .required('Required')
